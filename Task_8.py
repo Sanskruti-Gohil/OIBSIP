@@ -4,7 +4,7 @@
 import pandas as pd
 
 # Loading the dataset
-df = pd.read_csv("C:\\Users\\spgoh\\Downloads\\archive (1)\\datasets\\apps.csv")
+df = pd.read_csv("C:\\Users\\spgoh\\Downloads\\Datasets\\datasets\\apps.csv")
 
 df.head()
 df.shape

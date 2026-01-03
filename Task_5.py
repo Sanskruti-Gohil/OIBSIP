@@ -4,7 +4,7 @@
 import pandas as pd
 
 # Loading the dataset
-df = pd.read_csv("C:\\Users\\spgoh\\Downloads\\archive (1)\\1553768847-housing.csv")
+df = pd.read_csv("C:\\Users\\spgoh\\Downloads\\Datasets\\1553768847-housing.csv")
 
 df.head()
 df.shape
@@ -16,13 +16,6 @@ df.isnull().sum()
 
 # Handle missing values (numeric columns only)
 df.fillna(df.select_dtypes(include='number').mean(), inplace=True)
-
-# ------------------------------------
-# IMPORTANT: Dataset-specific fixes
-# ------------------------------------
-
-# Remove this line (columns do NOT exist in this dataset)
-# df.drop(['id', 'address'], axis=1, inplace=True)
 
 # Encode categorical column
 df = pd.get_dummies(df, columns=['ocean_proximity'], drop_first=True)

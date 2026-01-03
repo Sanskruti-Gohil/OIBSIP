@@ -3,7 +3,7 @@
 
 import pandas as pd
 # Loading the data
-df = pd.read_csv("C:\\Users\\spgoh\\Downloads\\archive (1)\\AB_NYC_2019.csv")
+df = pd.read_csv("C:\\Users\\spgoh\\Downloads\\Datasets\\AB_NYC_2019.csv")
 
 df.head()
 df.shape

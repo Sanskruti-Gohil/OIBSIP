@@ -6,7 +6,7 @@ import seaborn as sns # creates meaningful graphs with less code
 import matplotlib.pyplot as plt # turns data into visual graphs to help us understand trends and patterns
 
 # Loading the dataset
-df = pd.read_csv("C:/Users/spgoh/Downloads/archive (1)/menu.csv")
+df = pd.read_csv("C:\\Users\\spgoh\\Downloads\\Datasets\\menu.csv")
 
 # checking if data is loaded correctly
 df.head()

@@ -1,4 +1,5 @@
-# Task 9: Data Analytics - Fraud Detection
+# Task - 9
+#  Autocomplete and Autocorrect Data Analytics on Credit Card Fraud Detection
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -11,7 +12,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
 # 1. Load dataset
-data = pd.read_csv("C:\\Users\\spgoh\\Downloads\\archive (1)\\creditcard.csv")
+data = pd.read_csv("C:\\Users\\spgoh\\Downloads\\Datasets\\creditcard.csv")
 
 print("Dataset Preview:")
 print(data.head())
