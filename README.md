@@ -117,15 +117,3 @@ python Task_5.py
 Through these internship tasks, I gained practical experience in working with structured datasets, performing exploratory analysis, building predictive models, and evaluating machine learning algorithms across a variety of real-world scenarios.
 
 The repository reflects my learning journey across different domains of data science and strengthened my understanding of the complete machine learning workflow—from data preprocessing to model evaluation and visualization.
-
----
-
-## 🚀 Future Improvements
-
-* Replace hardcoded dataset paths with relative paths
-* Add a `requirements.txt` file
-* Organize datasets into a dedicated `datasets/` folder
-* Refactor repetitive code into reusable utility functions
-* Add better exception handling and logging
-* Save trained models for reuse
-* Improve documentation for each task
